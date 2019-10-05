@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var fileResources: [FileResource] = []
+    private var fileResources: [FileResource] = []
+    private var documentController: UIDocumentInteractionController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         // Download from epub samples.
         // http://www.ideal-group.org/cris-archives/sample_epub3_ebooks.htm
@@ -45,7 +45,24 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
         
-        print(fileResources[indexPath.row].title)
-        print(fileResources[indexPath.row].url)
+        Loader.show()
+        FileDownloader.download(url: fileResources[indexPath.row].url) { [weak self] downloadUrl, error in
+            guard let strongSelf = self else { return }
+            
+            Loader.hide()
+            
+            if let error = error {
+                print("### Error Occured!!! \(error.localizedDescription))")
+                return
+            }
+
+            guard let downloadUrl = downloadUrl else {
+                print("### File not Downloaded!!!")
+                return
+            }
+            
+            strongSelf.documentController = UIDocumentInteractionController(url: downloadUrl)
+            strongSelf.documentController?.presentOpenInMenu(from: strongSelf.view.frame, in: strongSelf.view, animated: true)
+        }
     }
 }

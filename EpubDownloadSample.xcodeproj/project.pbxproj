@@ -9,16 +9,18 @@
 /* Begin PBXBuildFile section */
 		06D6204554AAC5EEA995F021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 772A7A0AEF651A7748CDEED8 /* Main.storyboard */; };
 		0BAEE27EF6C57E5F08DC0258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B5659F8925B852C53165C /* AppDelegate.swift */; };
-		142EE0DBCD9A50011C705BE8 /* Pods_EpubDownloadSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A0B34104179856BFF1C4A3 /* Pods_EpubDownloadSampleUITests.framework */; };
-		1EA6004A45B72D28DF5EE01F /* Pods_EpubDownloadSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAA949CF263EEB82BB0B05A /* Pods_EpubDownloadSampleTests.framework */; };
 		230A119E93F1E927EC5EAAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B297AAD90ED9092D598702 /* LaunchScreen.storyboard */; };
+		398275B7764D28CA4533BE0B /* Pods_EpubDownloadSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCCC3FC626A7A41D34A9D08 /* Pods_EpubDownloadSampleUITests.framework */; };
+		3A8AD3F652266A43C55C1273 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E733C1BCDD09569CCAEFC772 /* FileResource.swift */; };
+		6A1E5E3B98C83822DA3D887E /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08A5BB2E1F66255044687C7 /* FileDownloader.swift */; };
+		8879E268225388A2CC1D466D /* Pods_EpubDownloadSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375A6B9341B65CD62D761DE2 /* Pods_EpubDownloadSample.framework */; };
 		953CE1B8D1B2A3EB56C6958B /* EpubDownloadSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E106DD536AF87F6CFB03CE06 /* EpubDownloadSampleUITests.swift */; };
 		98D6686C9837E5E90147C24D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B99ABDDA14A9D6B92BDFAA /* SceneDelegate.swift */; };
 		B57E3085B7C1F77FB3AFF2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93928A01975EC68EFFFB951 /* Assets.xcassets */; };
 		C4D984ED454B0DC407A04CFC /* EpubDownloadSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C264077F615FF5E92A7C0103 /* EpubDownloadSampleTests.swift */; };
 		C4E8D9B97C39161482B62FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB06E675FC1562764F80FB /* ViewController.swift */; };
-		C5E1F15B174A070CAF28E811 /* Pods_EpubDownloadSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD79F7390E298194F1ADC8E2 /* Pods_EpubDownloadSample.framework */; };
-		F6098D9A23485B6D007DBD24 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6098D9923485B6D007DBD24 /* FileResource.swift */; };
+		CAD0286E65951BE1CD0D5049 /* Pods_EpubDownloadSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A13FAF8642CCCC915EE0A4F9 /* Pods_EpubDownloadSampleTests.framework */; };
+		F6121C0D23487F3E00EB645D /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6121C0C23487F3E00EB645D /* Loader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,65 +42,67 @@
 
 /* Begin PBXFileReference section */
 		0942A26B1F24F2114B0CC1D5 /* EpubDownloadSample.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EpubDownloadSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C371B1AB5D82D91518DE2E4 /* Pods-EpubDownloadSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSample.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample.release.xcconfig"; sourceTree = "<group>"; };
 		102A154D2532AAA1B1E29419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DCCC3FC626A7A41D34A9D08 /* Pods_EpubDownloadSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26ED445BE3235900D95098B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BB6D3EEFD192CFEE6A943C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33B99ABDDA14A9D6B92BDFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		375A6B9341B65CD62D761DE2 /* Pods_EpubDownloadSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		389AB5E5764383E475420B88 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		3C232525F419EF3880FF554D /* EpubDownloadSample-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSample-Debug.xcconfig"; sourceTree = "<group>"; };
-		419C17ADA2AC01A6AF7A6B65 /* Pods-EpubDownloadSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleUITests/Pods-EpubDownloadSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		404E09F42130D7B1E0ECDA2B /* Pods-EpubDownloadSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleTests/Pods-EpubDownloadSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0CF5C2159A316324BDB793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BAA949CF263EEB82BB0B05A /* Pods_EpubDownloadSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C279AA2DF3A5302B75BF3A4 /* EpubDownloadSampleTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EpubDownloadSampleTests.xcconfig; sourceTree = "<group>"; };
-		546A26717D8E3C82FFE83553 /* Pods-EpubDownloadSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleTests.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleTests/Pods-EpubDownloadSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D9DD1D6B8C0EA15FC7EDC80 /* Pods-EpubDownloadSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSample.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample.debug.xcconfig"; sourceTree = "<group>"; };
 		634A145279B42DB534284FB5 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		70A0B34104179856BFF1C4A3 /* Pods_EpubDownloadSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A3B835E918F1804E964C8D /* EpubDownloadSample-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSample-Release.xcconfig"; sourceTree = "<group>"; };
+		94735D0D20BEDECDE85A8CC7 /* Pods-EpubDownloadSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleUITests/Pods-EpubDownloadSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9EFA61E516612D42E00D1969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0B0F37A542D0DBB596DB220 /* EpubDownloadSample.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EpubDownloadSample.xcconfig; sourceTree = "<group>"; };
+		A13FAF8642CCCC915EE0A4F9 /* Pods_EpubDownloadSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8B5659F8925B852C53165C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC3CD964DD16AE68609AA62F /* Pods-EpubDownloadSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleUITests/Pods-EpubDownloadSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD79F7390E298194F1ADC8E2 /* Pods_EpubDownloadSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpubDownloadSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A289633605D5823F1EFA6 /* Pods-EpubDownloadSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleUITests/Pods-EpubDownloadSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B38439305380D62066E5228A /* EpubDownloadSampleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EpubDownloadSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA068F2EAF3A93468C216BEC /* EpubDownloadSampleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EpubDownloadSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5D31ED352F235CB40491AB /* Pods-EpubDownloadSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleTests.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleTests/Pods-EpubDownloadSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		C264077F615FF5E92A7C0103 /* EpubDownloadSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubDownloadSampleTests.swift; sourceTree = "<group>"; };
-		C664FE81A1952ACC94AD2671 /* Pods-EpubDownloadSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSampleTests/Pods-EpubDownloadSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDF3A0D57D49CA55D86415E9 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		D6AEF3BD1222CA2905E8212D /* EpubDownloadSampleUITests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSampleUITests-Release.xcconfig"; sourceTree = "<group>"; };
 		D72B5894D9EDEFFA04DBB11F /* EpubDownloadSampleTests-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSampleTests-Release.xcconfig"; sourceTree = "<group>"; };
 		D893A8C91E078BC5ECBCF4E3 /* EpubDownloadSampleUITests-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSampleUITests-Debug.xcconfig"; sourceTree = "<group>"; };
 		E106DD536AF87F6CFB03CE06 /* EpubDownloadSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubDownloadSampleUITests.swift; sourceTree = "<group>"; };
 		E6D10324FE7F4F0B89F06C1E /* EpubDownloadSampleTests-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "EpubDownloadSampleTests-Debug.xcconfig"; sourceTree = "<group>"; };
+		E733C1BCDD09569CCAEFC772 /* FileResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
+		E85EA81A8B64F04EABAD62A4 /* Pods-EpubDownloadSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSample.release.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample.release.xcconfig"; sourceTree = "<group>"; };
 		E93928A01975EC68EFFFB951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2B94D9795EF4F02D47567C /* EpubDownloadSampleUITests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EpubDownloadSampleUITests.xcconfig; sourceTree = "<group>"; };
-		F420D4D8D7E9CBF8D2DBCCB6 /* Pods-EpubDownloadSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSample.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample.debug.xcconfig"; sourceTree = "<group>"; };
-		F6098D9923485B6D007DBD24 /* FileResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
+		F08A5BB2E1F66255044687C7 /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		F6121C0C23487F3E00EB645D /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		FDDB06E675FC1562764F80FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50BC58DC428CFB1F9408C71C /* Frameworks */ = {
+		C0E702F5B8C4E8F251B9DAA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA6004A45B72D28DF5EE01F /* Pods_EpubDownloadSampleTests.framework in Frameworks */,
+				8879E268225388A2CC1D466D /* Pods_EpubDownloadSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA636DB73AB5696DDA8436BE /* Frameworks */ = {
+		E7567BC5EDA802D67BC7B846 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5E1F15B174A070CAF28E811 /* Pods_EpubDownloadSample.framework in Frameworks */,
+				CAD0286E65951BE1CD0D5049 /* Pods_EpubDownloadSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1DDD5AA5309862CF6723DB7 /* Frameworks */ = {
+		F52A00490A9BFE4A963E5880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				142EE0DBCD9A50011C705BE8 /* Pods_EpubDownloadSampleUITests.framework in Frameworks */,
+				398275B7764D28CA4533BE0B /* Pods_EpubDownloadSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,40 +118,19 @@
 			path = EpubDownloadSampleTests;
 			sourceTree = "<group>";
 		};
-		2CE1E6B2F6C07BB21DAF57AC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AD79F7390E298194F1ADC8E2 /* Pods_EpubDownloadSample.framework */,
-				4BAA949CF263EEB82BB0B05A /* Pods_EpubDownloadSampleTests.framework */,
-				70A0B34104179856BFF1C4A3 /* Pods_EpubDownloadSampleUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		321627742D1910D106B12FD8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F420D4D8D7E9CBF8D2DBCCB6 /* Pods-EpubDownloadSample.debug.xcconfig */,
-				0C371B1AB5D82D91518DE2E4 /* Pods-EpubDownloadSample.release.xcconfig */,
-				C664FE81A1952ACC94AD2671 /* Pods-EpubDownloadSampleTests.debug.xcconfig */,
-				546A26717D8E3C82FFE83553 /* Pods-EpubDownloadSampleTests.release.xcconfig */,
-				AC3CD964DD16AE68609AA62F /* Pods-EpubDownloadSampleUITests.debug.xcconfig */,
-				419C17ADA2AC01A6AF7A6B65 /* Pods-EpubDownloadSampleUITests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		890A97C1972F80816CEAD270 /* EpubDownloadSample */ = {
 			isa = PBXGroup;
 			children = (
 				AB8B5659F8925B852C53165C /* AppDelegate.swift */,
 				E93928A01975EC68EFFFB951 /* Assets.xcassets */,
+				F08A5BB2E1F66255044687C7 /* FileDownloader.swift */,
+				E733C1BCDD09569CCAEFC772 /* FileResource.swift */,
 				102A154D2532AAA1B1E29419 /* Info.plist */,
 				17B297AAD90ED9092D598702 /* LaunchScreen.storyboard */,
 				772A7A0AEF651A7748CDEED8 /* Main.storyboard */,
 				33B99ABDDA14A9D6B92BDFAA /* SceneDelegate.swift */,
 				FDDB06E675FC1562764F80FB /* ViewController.swift */,
-				F6098D9923485B6D007DBD24 /* FileResource.swift */,
+				F6121C0C23487F3E00EB645D /* Loader.swift */,
 			);
 			path = EpubDownloadSample;
 			sourceTree = "<group>";
@@ -160,9 +143,22 @@
 				107272308FA518BC2DEB0A42 /* EpubDownloadSampleTests */,
 				D390CCE04AD41A9F08F8D717 /* EpubDownloadSampleUITests */,
 				F2D390A5F5F98BD9DC255F9B /* Products */,
-				321627742D1910D106B12FD8 /* Pods */,
-				2CE1E6B2F6C07BB21DAF57AC /* Frameworks */,
+				AB83C4BB685738B0CFD1E22C /* Pods */,
+				E0D4E65795363CB88141B888 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		AB83C4BB685738B0CFD1E22C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9DD1D6B8C0EA15FC7EDC80 /* Pods-EpubDownloadSample.debug.xcconfig */,
+				E85EA81A8B64F04EABAD62A4 /* Pods-EpubDownloadSample.release.xcconfig */,
+				404E09F42130D7B1E0ECDA2B /* Pods-EpubDownloadSampleTests.debug.xcconfig */,
+				BD5D31ED352F235CB40491AB /* Pods-EpubDownloadSampleTests.release.xcconfig */,
+				94735D0D20BEDECDE85A8CC7 /* Pods-EpubDownloadSampleUITests.debug.xcconfig */,
+				B06A289633605D5823F1EFA6 /* Pods-EpubDownloadSampleUITests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D390CCE04AD41A9F08F8D717 /* EpubDownloadSampleUITests */ = {
@@ -193,6 +189,16 @@
 			path = configs;
 			sourceTree = "<group>";
 		};
+		E0D4E65795363CB88141B888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375A6B9341B65CD62D761DE2 /* Pods_EpubDownloadSample.framework */,
+				A13FAF8642CCCC915EE0A4F9 /* Pods_EpubDownloadSampleTests.framework */,
+				1DCCC3FC626A7A41D34A9D08 /* Pods_EpubDownloadSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2D390A5F5F98BD9DC255F9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,9 +216,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1276C6E1F79A1E673ECEAC7E /* Build configuration list for PBXNativeTarget "EpubDownloadSampleTests" */;
 			buildPhases = (
-				E5A8CEF9CBDD57C4BF5844AC /* [CP] Check Pods Manifest.lock */,
+				B93358F7FA442477617A5BC4 /* [CP] Check Pods Manifest.lock */,
 				6E08B06632EA52D5AF43062D /* Sources */,
-				50BC58DC428CFB1F9408C71C /* Frameworks */,
+				E7567BC5EDA802D67BC7B846 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,9 +234,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEADB46BA29821C389A08EA8 /* Build configuration list for PBXNativeTarget "EpubDownloadSampleUITests" */;
 			buildPhases = (
-				76CF2EBA203A24D5DCE64C94 /* [CP] Check Pods Manifest.lock */,
+				32CACDFA825E8DD0D266B663 /* [CP] Check Pods Manifest.lock */,
 				76C52D0F2FE45B3E944DD40A /* Sources */,
-				C1DDD5AA5309862CF6723DB7 /* Frameworks */,
+				F52A00490A9BFE4A963E5880 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,11 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83B8A1854B74AC7724A5C551 /* Build configuration list for PBXNativeTarget "EpubDownloadSample" */;
 			buildPhases = (
-				C51642431168FF803E0A9F6C /* [CP] Check Pods Manifest.lock */,
+				FB38B8829B2332D731A26393 /* [CP] Check Pods Manifest.lock */,
 				9F4C6B7D5BA37FCD2CF82CEF /* Sources */,
 				92C503D1A954C3C02E328336 /* Resources */,
-				AA636DB73AB5696DDA8436BE /* Frameworks */,
-				2327F13FE2EA6E283423D61A /* [CP] Embed Pods Frameworks */,
+				C0E702F5B8C4E8F251B9DAA4 /* Frameworks */,
+				C41A1E06E4514579E965F1EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,24 +324,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2327F13FE2EA6E283423D61A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76CF2EBA203A24D5DCE64C94 /* [CP] Check Pods Manifest.lock */ = {
+		32CACDFA825E8DD0D266B663 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,29 +346,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C51642431168FF803E0A9F6C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EpubDownloadSample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\n\necho \"PODS_PROFILE_DIR_PATH: ${PODS_PODFILE_DIR_PATH}\" >&2\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5A8CEF9CBDD57C4BF5844AC /* [CP] Check Pods Manifest.lock */ = {
+		B93358F7FA442477617A5BC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,6 +362,45 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-EpubDownloadSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41A1E06E4514579E965F1EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB38B8829B2332D731A26393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpubDownloadSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,7 +431,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BAEE27EF6C57E5F08DC0258 /* AppDelegate.swift in Sources */,
-				F6098D9A23485B6D007DBD24 /* FileResource.swift in Sources */,
+				6A1E5E3B98C83822DA3D887E /* FileDownloader.swift in Sources */,
+				F6121C0D23487F3E00EB645D /* Loader.swift in Sources */,
+				3A8AD3F652266A43C55C1273 /* FileResource.swift in Sources */,
 				98D6686C9837E5E90147C24D /* SceneDelegate.swift in Sources */,
 				C4E8D9B97C39161482B62FD1 /* ViewController.swift in Sources */,
 			);
@@ -470,7 +478,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 634A145279B42DB534284FB5 /* Release.xcconfig */;
 			buildSettings = {
-				PODS_ROOT = "${SRCROOT}/Pods";
 			};
 			name = Release;
 		};
@@ -528,8 +535,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDF3A0D57D49CA55D86415E9 /* Debug.xcconfig */;
 			buildSettings = {
-				"OTHER_CFLAGS[sdk=*]" = "$(inhrerited)";
-				PODS_ROOT = "${SRCROOT}/Pods";
 			};
 			name = Debug;
 		};

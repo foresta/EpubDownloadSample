@@ -8,6 +8,7 @@ target 'EpubDownloadSample' do
   # Pods for EpubDownloadSample
   pod 'SwiftLint'
   pod 'Alamofire'
+  pod 'MBProgressHUD'
 
   target 'EpubDownloadSampleTests' do
     inherit! :search_paths
