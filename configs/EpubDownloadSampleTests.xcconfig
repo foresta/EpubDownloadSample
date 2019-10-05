@@ -1,0 +1,9 @@
+// Generated using xcconfig-extractor 0.5.0 by Toshihiro Suzuki - https://github.com/toshi0383/xcconfig-extractor
+BUNDLE_LOADER = $(TEST_HOST)
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+TEST_HOST = $(BUILT_PRODUCTS_DIR)/EpubDownloadSample.app/EpubDownloadSample
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+INFOPLIST_FILE = EpubDownloadSampleTests/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleTests
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
+

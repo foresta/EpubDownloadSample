@@ -1,0 +1,7 @@
+// Generated using xcconfig-extractor 0.5.0 by Toshihiro Suzuki - https://github.com/toshi0383/xcconfig-extractor
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks
+INFOPLIST_FILE = EpubDownloadSampleUITests/Info.plist
+TEST_TARGET_NAME = EpubDownloadSample
+PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleUITests
+

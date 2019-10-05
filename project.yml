@@ -1,0 +1,38 @@
+name: EpubDownloadSample
+fileGroups:
+  - configs
+configFiles:
+  Debug: configs/Debug.xcconfig
+  Release: configs/Release.xcconfig
+targets:
+  EpubDownloadSample:
+    type: application
+    platform: iOS
+    sources: EpubDownloadSample
+    configFiles:
+      Debug: configs/EpubDownloadSample-Debug.xcconfig
+      Release: configs/EpubDownloadSample-Release.xcconfig
+    settings:
+      CURRENT_PROJECT_VERSION: 1
+    scheme:
+      testTargets:
+        - EpubDownloadSampleTests
+        - EpubDownloadSampleUITests
+  EpubDownloadSampleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: EpubDownloadSampleTests
+    configFiles:
+      Debug: configs/EpubDownloadSampleTests-Debug.xcconfig
+      Release: configs/EpubDownloadSampleTests-Release.xcconfig
+    dependencies:
+      - target: EpubDownloadSample
+  EpubDownloadSampleUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: EpubDownloadSampleUITests
+    configFiles:
+      Debug: configs/EpubDownloadSampleUITests-Debug.xcconfig
+      Release: configs/EpubDownloadSampleUITests-Release.xcconfig
+    dependencies:
+      - target: EpubDownloadSample
