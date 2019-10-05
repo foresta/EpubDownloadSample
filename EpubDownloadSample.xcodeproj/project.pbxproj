@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F2DD9E2348447100272B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2DD9D2348447100272B7A /* AppDelegate.swift */; };
+		F6F2DDA02348447100272B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2DD9F2348447100272B7A /* SceneDelegate.swift */; };
+		F6F2DDA22348447100272B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2DDA12348447100272B7A /* ViewController.swift */; };
+		F6F2DDA52348447100272B7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F2DDA32348447100272B7A /* Main.storyboard */; };
+		F6F2DDA72348447400272B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F2DDA62348447400272B7A /* Assets.xcassets */; };
+		F6F2DDAA2348447400272B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F2DDA82348447400272B7A /* LaunchScreen.storyboard */; };
+		F6F2DDB52348447400272B7A /* EpubDownloadSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2DDB42348447400272B7A /* EpubDownloadSampleTests.swift */; };
+		F6F2DDC02348447400272B7A /* EpubDownloadSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F2DDBF2348447400272B7A /* EpubDownloadSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6F2DDB12348447400272B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F2DD922348447100272B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F2DD992348447100272B7A;
+			remoteInfo = EpubDownloadSample;
+		};
+		F6F2DDBC2348447400272B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F2DD922348447100272B7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F2DD992348447100272B7A;
+			remoteInfo = EpubDownloadSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6F2DD9A2348447100272B7A /* EpubDownloadSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpubDownloadSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F2DD9D2348447100272B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6F2DD9F2348447100272B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6F2DDA12348447100272B7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6F2DDA42348447100272B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6F2DDA62348447400272B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F2DDA92348447400272B7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6F2DDAB2348447400272B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F2DDB02348447400272B7A /* EpubDownloadSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpubDownloadSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F2DDB42348447400272B7A /* EpubDownloadSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubDownloadSampleTests.swift; sourceTree = "<group>"; };
+		F6F2DDB62348447400272B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F2DDBB2348447400272B7A /* EpubDownloadSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpubDownloadSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F2DDBF2348447400272B7A /* EpubDownloadSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpubDownloadSampleUITests.swift; sourceTree = "<group>"; };
+		F6F2DDC12348447400272B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F2DD972348447100272B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDAD2348447400272B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDB82348447400272B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F2DD912348447100272B7A = {
+			isa = PBXGroup;
+			children = (
+				F6F2DD9C2348447100272B7A /* EpubDownloadSample */,
+				F6F2DDB32348447400272B7A /* EpubDownloadSampleTests */,
+				F6F2DDBE2348447400272B7A /* EpubDownloadSampleUITests */,
+				F6F2DD9B2348447100272B7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F2DD9B2348447100272B7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F2DD9A2348447100272B7A /* EpubDownloadSample.app */,
+				F6F2DDB02348447400272B7A /* EpubDownloadSampleTests.xctest */,
+				F6F2DDBB2348447400272B7A /* EpubDownloadSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F2DD9C2348447100272B7A /* EpubDownloadSample */ = {
+			isa = PBXGroup;
+			children = (
+				F6F2DD9D2348447100272B7A /* AppDelegate.swift */,
+				F6F2DD9F2348447100272B7A /* SceneDelegate.swift */,
+				F6F2DDA12348447100272B7A /* ViewController.swift */,
+				F6F2DDA32348447100272B7A /* Main.storyboard */,
+				F6F2DDA62348447400272B7A /* Assets.xcassets */,
+				F6F2DDA82348447400272B7A /* LaunchScreen.storyboard */,
+				F6F2DDAB2348447400272B7A /* Info.plist */,
+			);
+			path = EpubDownloadSample;
+			sourceTree = "<group>";
+		};
+		F6F2DDB32348447400272B7A /* EpubDownloadSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F2DDB42348447400272B7A /* EpubDownloadSampleTests.swift */,
+				F6F2DDB62348447400272B7A /* Info.plist */,
+			);
+			path = EpubDownloadSampleTests;
+			sourceTree = "<group>";
+		};
+		F6F2DDBE2348447400272B7A /* EpubDownloadSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F2DDBF2348447400272B7A /* EpubDownloadSampleUITests.swift */,
+				F6F2DDC12348447400272B7A /* Info.plist */,
+			);
+			path = EpubDownloadSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F2DD992348447100272B7A /* EpubDownloadSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F2DDC42348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSample" */;
+			buildPhases = (
+				F6F2DD962348447100272B7A /* Sources */,
+				F6F2DD972348447100272B7A /* Frameworks */,
+				F6F2DD982348447100272B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpubDownloadSample;
+			productName = EpubDownloadSample;
+			productReference = F6F2DD9A2348447100272B7A /* EpubDownloadSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F2DDAF2348447400272B7A /* EpubDownloadSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F2DDC72348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSampleTests" */;
+			buildPhases = (
+				F6F2DDAC2348447400272B7A /* Sources */,
+				F6F2DDAD2348447400272B7A /* Frameworks */,
+				F6F2DDAE2348447400272B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F2DDB22348447400272B7A /* PBXTargetDependency */,
+			);
+			name = EpubDownloadSampleTests;
+			productName = EpubDownloadSampleTests;
+			productReference = F6F2DDB02348447400272B7A /* EpubDownloadSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6F2DDBA2348447400272B7A /* EpubDownloadSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F2DDCA2348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSampleUITests" */;
+			buildPhases = (
+				F6F2DDB72348447400272B7A /* Sources */,
+				F6F2DDB82348447400272B7A /* Frameworks */,
+				F6F2DDB92348447400272B7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F2DDBD2348447400272B7A /* PBXTargetDependency */,
+			);
+			name = EpubDownloadSampleUITests;
+			productName = EpubDownloadSampleUITests;
+			productReference = F6F2DDBB2348447400272B7A /* EpubDownloadSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F2DD922348447100272B7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = kz_morita;
+				TargetAttributes = {
+					F6F2DD992348447100272B7A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F6F2DDAF2348447400272B7A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F6F2DD992348447100272B7A;
+					};
+					F6F2DDBA2348447400272B7A = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F6F2DD992348447100272B7A;
+					};
+				};
+			};
+			buildConfigurationList = F6F2DD952348447100272B7A /* Build configuration list for PBXProject "EpubDownloadSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F2DD912348447100272B7A;
+			productRefGroup = F6F2DD9B2348447100272B7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F2DD992348447100272B7A /* EpubDownloadSample */,
+				F6F2DDAF2348447400272B7A /* EpubDownloadSampleTests */,
+				F6F2DDBA2348447400272B7A /* EpubDownloadSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F2DD982348447100272B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2DDAA2348447400272B7A /* LaunchScreen.storyboard in Resources */,
+				F6F2DDA72348447400272B7A /* Assets.xcassets in Resources */,
+				F6F2DDA52348447100272B7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDAE2348447400272B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDB92348447400272B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F2DD962348447100272B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2DDA22348447100272B7A /* ViewController.swift in Sources */,
+				F6F2DD9E2348447100272B7A /* AppDelegate.swift in Sources */,
+				F6F2DDA02348447100272B7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDAC2348447400272B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2DDB52348447400272B7A /* EpubDownloadSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F2DDB72348447400272B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2DDC02348447400272B7A /* EpubDownloadSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6F2DDB22348447400272B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F2DD992348447100272B7A /* EpubDownloadSample */;
+			targetProxy = F6F2DDB12348447400272B7A /* PBXContainerItemProxy */;
+		};
+		F6F2DDBD2348447400272B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F2DD992348447100272B7A /* EpubDownloadSample */;
+			targetProxy = F6F2DDBC2348447400272B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6F2DDA32348447100272B7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F2DDA42348447100272B7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6F2DDA82348447400272B7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F2DDA92348447400272B7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6F2DDC22348447400272B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F2DDC32348447400272B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F2DDC52348447400272B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6F2DDC62348447400272B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6F2DDC82348447400272B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpubDownloadSample.app/EpubDownloadSample";
+			};
+			name = Debug;
+		};
+		F6F2DDC92348447400272B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EpubDownloadSample.app/EpubDownloadSample";
+			};
+			name = Release;
+		};
+		F6F2DDCB2348447400272B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpubDownloadSample;
+			};
+			name = Debug;
+		};
+		F6F2DDCC2348447400272B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTBV575NJN;
+				INFOPLIST_FILE = EpubDownloadSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.foresta.EpubDownloadSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EpubDownloadSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F2DD952348447100272B7A /* Build configuration list for PBXProject "EpubDownloadSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F2DDC22348447400272B7A /* Debug */,
+				F6F2DDC32348447400272B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F2DDC42348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F2DDC52348447400272B7A /* Debug */,
+				F6F2DDC62348447400272B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F2DDC72348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F2DDC82348447400272B7A /* Debug */,
+				F6F2DDC92348447400272B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F2DDCA2348447400272B7A /* Build configuration list for PBXNativeTarget "EpubDownloadSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F2DDCB2348447400272B7A /* Debug */,
+				F6F2DDCC2348447400272B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F2DD922348447100272B7A /* Project object */;
+}
