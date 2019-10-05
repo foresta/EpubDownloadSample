@@ -18,6 +18,7 @@
 		C4D984ED454B0DC407A04CFC /* EpubDownloadSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C264077F615FF5E92A7C0103 /* EpubDownloadSampleTests.swift */; };
 		C4E8D9B97C39161482B62FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDB06E675FC1562764F80FB /* ViewController.swift */; };
 		C5E1F15B174A070CAF28E811 /* Pods_EpubDownloadSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD79F7390E298194F1ADC8E2 /* Pods_EpubDownloadSample.framework */; };
+		F6098D9A23485B6D007DBD24 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6098D9923485B6D007DBD24 /* FileResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		E93928A01975EC68EFFFB951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED2B94D9795EF4F02D47567C /* EpubDownloadSampleUITests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = EpubDownloadSampleUITests.xcconfig; sourceTree = "<group>"; };
 		F420D4D8D7E9CBF8D2DBCCB6 /* Pods-EpubDownloadSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpubDownloadSample.debug.xcconfig"; path = "Target Support Files/Pods-EpubDownloadSample/Pods-EpubDownloadSample.debug.xcconfig"; sourceTree = "<group>"; };
+		F6098D9923485B6D007DBD24 /* FileResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileResource.swift; sourceTree = "<group>"; };
 		FDDB06E675FC1562764F80FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 				772A7A0AEF651A7748CDEED8 /* Main.storyboard */,
 				33B99ABDDA14A9D6B92BDFAA /* SceneDelegate.swift */,
 				FDDB06E675FC1562764F80FB /* ViewController.swift */,
+				F6098D9923485B6D007DBD24 /* FileResource.swift */,
 			);
 			path = EpubDownloadSample;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BAEE27EF6C57E5F08DC0258 /* AppDelegate.swift in Sources */,
+				F6098D9A23485B6D007DBD24 /* FileResource.swift in Sources */,
 				98D6686C9837E5E90147C24D /* SceneDelegate.swift in Sources */,
 				C4E8D9B97C39161482B62FD1 /* ViewController.swift in Sources */,
 			);
